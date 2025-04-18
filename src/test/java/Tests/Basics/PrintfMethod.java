@@ -1,4 +1,4 @@
-package Tests;
+package Tests.Basics;
 
 import org.testng.annotations.Test;
 
