@@ -1,9 +1,10 @@
-package Tests;
+package Tests.TwoDArrayLogics;
 
 import org.testng.annotations.Test;
 
 public class ConditionalTraverse {
 
+    @Test
     public void printMatrixTraversal(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
