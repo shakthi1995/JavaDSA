@@ -72,4 +72,13 @@ public class RegexValidation {
             System.out.println(pass + " -> " + isValidPassword(pass));
         }
     }
+
+    @Test
+    public void RemoveDuplicateWordsUsingRegex(){
+        String input = "I love Love to To code";
+
+        String output = input.replaceAll("(?i)\\b(\\w+)(\\s+\\1\\b)+", "$1");
+        System.out.println(output);
+
+    }
 }
