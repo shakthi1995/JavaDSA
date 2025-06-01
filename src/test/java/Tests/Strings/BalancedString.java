@@ -19,7 +19,5 @@ public class BalancedString {
                 result.put(c, result.get(c) + 1);
             }
         }
-
     }
-
 }
