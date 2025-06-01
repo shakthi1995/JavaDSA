@@ -12,7 +12,7 @@ public class ExtractStringCharacters {
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if(str.charAt(i) != ' '){
+            if(ch != ' '){
                 if (Character.isDigit(ch)) {
                     num.append(ch);
                 } else if (Character.isLetter(ch)) {

@@ -12,6 +12,7 @@ public class PrintfMethod {
                     "python 50"
             };
 
+
             // Print top border
             System.out.println("================================");
 
